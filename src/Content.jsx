@@ -8,20 +8,20 @@ const Content = () => {
             <h3>Metric & Imperial</h3>
             <p>Unit conversion</p>
 				<input type="number" id="inputvalue"/><br />
-				<button class="convertbtn" id="btn" onClick="convertValue()">convert</button>
+				<button className="convertbtn" id="btn" onClick="convertValue()">convert</button>
             </div>
-            <div class="results-container">
+            <div className="results-container">
             <div class="length results" id="leng">
-					<h5 class="title">Length (Meters/Feet)</h5>
-					<p class="info" id="conversionleng"></p>
+					<h5 className="title">Length (Meters/Feet)</h5>
+					<p className="info" id="conversionleng"></p>
 				</div>
-				<div class="volume results" id="vol">
-					<h5 class="title">Volume (Liters/Gallons)</h5>
-					<p class="info" id="conversionvol"></p>
+				<div className="volume results" id="vol">
+					<h5 className="title">Volume (Liters/Gallons)</h5>
+					<p className="info" id="conversionvol"></p>
 				</div>
-				<div class="mass results" id="mass">
-					<h5 class="title">Mass (Kilograms/Pounds)</h5>
-					<p class="info" id="conversionmass"></p>
+				<div className="mass results" id="mass">
+					<h5 className="title">Mass (Kilograms/Pounds)</h5>
+					<p className="info" id="conversionmass"></p>
 				</div>
             </div>
         </content>
