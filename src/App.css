@@ -113,5 +113,12 @@ input[type="number"]{
 }
 
 Footer {
+  text-align: center;
   background: #FFFCF2;
+}
+
+h6 {
+  font-size: 1.2rem;
+  opacity: 60%;
+  color: #252422;
 }
