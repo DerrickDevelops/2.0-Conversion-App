@@ -1,0 +1,117 @@
+#root {
+  background-color: #FFFCF2;
+  padding: 20px 50px;
+}
+Header {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  line-height: 25px;
+  background: #FFFCF2;
+}
+
+h2 {
+  display: block;
+  color: #403D39
+}
+
+h1 {
+  display: block;
+  color: #252422;
+}
+
+Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #FFFCF2;
+}
+
+.inputbox-container {
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+ 
+}
+
+h3 {
+  color: #252422;
+}
+
+.inputbox-container p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: -1rem;
+  color: #252422;
+  opacity: 80%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"]{
+  appearance: textfield;
+	width: 10rem;
+	height: 3rem;
+	background: #CCC5B9;
+	color: #000;
+	text-align: center;
+	font-size: 24px;
+	border-radius: 5px;
+	border: 3px solid #ffffff;
+}
+
+.convertbtn {
+  width: 6rem;
+  height: 3rem;
+  margin-top: -2rem;
+  font-size: 1rem;
+	font-weight: 600;
+	background: #CCC5B9;
+	color: #403D39;
+	border-radius: 6px;
+	border: 2px solid #EB5E28;
+  cursor: pointer;
+}
+
+.results-container {
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  padding: 5px;
+  border: 2px solid #888;
+  border-radius: 10px;
+}
+
+.title {
+  padding-top: 5px;
+  text-align: center;
+  color: #CCC5B9;
+}
+
+.results {
+  width: clamp(1rem, 100vw, 15rem);
+  height: 5rem;
+  background: #403D39;
+  color: #CCC5B9;
+}
+
+.length {
+  border-radius: 6px 0 0 6px;
+}
+
+.mass {
+  border-radius: 0 6px 6px 0;
+}
+
+Footer {
+  background: #FFFCF2;
+}
