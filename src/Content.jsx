@@ -7,8 +7,8 @@ const Content = () => {
             <div className="inputbox-container">
             <h3>Metric & Imperial</h3>
             <p>Unit conversion</p>
-				<input type="number" id="inputvalue" pattern="[0-9]*" value=""/><br />
-				<button class="convertbtn" id="btn" onclick="convertValue()">convert</button>
+				<input type="number" id="inputvalue"/><br />
+				<button class="convertbtn" id="btn" onClick="convertValue()">convert</button>
             </div>
             <div class="results-container">
             <div class="length results" id="leng">
