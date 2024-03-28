@@ -1,9 +1,9 @@
 import React from 'react'
 import './Layout.css'
 
-const Content = () => {
+const MainContent = () => {
     return (
-        <content className="content-container">
+        <main className="content-container">
             <div className="inputbox-container">
             <h3>Metric & Imperial</h3>
             <p>Unit conversion</p>
@@ -24,8 +24,8 @@ const Content = () => {
 					<p className="info" id="conversionmass"></p>
 				</div>
             </div>
-        </content>
+        </main>
     )
 }
 
-export default Content
+export default MainContent
