@@ -1,6 +1,7 @@
 #root {
   background-color: #FFFCF2;
   padding: 20px 50px;
+  /* border: 2px solid red; */
 }
 Header {
   display: flex;

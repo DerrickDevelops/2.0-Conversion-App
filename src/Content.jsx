@@ -11,7 +11,7 @@ const Content = () => {
 				<button className="convertbtn" id="btn" onClick="convertValue()">convert</button>
             </div>
             <div className="results-container">
-            <div class="length results" id="leng">
+            <div className="length results" id="leng">
 					<h5 className="title">Length (Meters/Feet)</h5>
 					<p className="info" id="conversionleng"></p>
 				</div>

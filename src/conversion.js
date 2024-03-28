@@ -13,7 +13,7 @@ let volEl = document.getElementById('conversionvol')
 let massEl = document.getElementById('conversionmass')
 
 function convertValue() {
-	let value = +inputValue.value;
+	let value = parseFloat(inputValue.value);
 
 
     let meterValue = (value * 3.218).toFixed(2);

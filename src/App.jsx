@@ -8,7 +8,7 @@ import Content from './Content.jsx'
 import Footer from './Footer.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
