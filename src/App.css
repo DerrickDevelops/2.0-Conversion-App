@@ -129,3 +129,30 @@ h6 {
   opacity: 60%;
   color: #252422;
 }
+
+@media only screen and (max-width: 600px) {
+  .results-container {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    padding: 5px;
+    border: 2px solid #888;
+    border-radius: 10px;
+  }
+
+  .length {
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .mass {
+    border-radius: 0 0 6px 6px;
+  }
+
+  h6 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    opacity: 60%;
+    color: #252422;
+  }
+
+}

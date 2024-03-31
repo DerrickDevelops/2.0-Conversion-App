@@ -8,8 +8,6 @@ import MainContent from './Content.jsx'
 import Footer from './Footer.jsx'
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
       <div className="container">

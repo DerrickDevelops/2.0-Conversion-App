@@ -31,7 +31,7 @@ const MainContent = () => {
             <div className="inputbox-container">
                 <h3>Metric & Imperial</h3>
                 <p>Unit conversion</p> 
-                <input type="number" id="inputvalue" value={inputValue} onChange={handleInputChange} /><br />
+                <input type="number" id="inputvalue" value={inputValue} onChange={handleInputChange} inputMode='numeric'/><br />
                 <button className="convertbtn" id="btn" onClick={handleConvert}>Convert</button>
             </div>
             <div className="results-container">
