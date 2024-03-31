@@ -104,6 +104,7 @@ input[type="number"]{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
   width: clamp(1rem, 100vw, 20rem);
   height: 5rem;
   font-size: 11px;
@@ -159,6 +160,10 @@ h6 {
     border-radius: 10px;
   }
 
+  .results {
+    font-weight: 600;
+  }
+
   .length {
     border-radius: 6px 6px 0 0;
   }
@@ -172,6 +177,7 @@ h6 {
     font-size: 1rem;
     opacity: 60%;
     color: #252422;
+    padding-bottom: 0;
   }
 
 }
