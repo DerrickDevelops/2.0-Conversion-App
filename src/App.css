@@ -125,9 +125,28 @@ Footer {
 }
 
 h6 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   opacity: 60%;
   color: #252422;
+  padding-bottom: 2rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.contact-links a {
+  color: #888888;
+}
+
+.contact-links a:hover {
+  color: #333333;
+  opacity: 100%;
 }
 
 @media only screen and (max-width: 600px) {
