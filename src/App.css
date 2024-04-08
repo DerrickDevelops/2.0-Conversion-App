@@ -150,7 +150,7 @@ h6 {
   opacity: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   .results-container {
     display: flex;
     gap: 5px;
